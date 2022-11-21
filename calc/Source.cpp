@@ -15,19 +15,19 @@ int main() {
 		cin >> Choose;
 		switch (Choose) {
 		case '+':
-			cout<<Sum(a, b)<<endl;
+			cout<<a<<Choose<<b<<"="<<Sum(a, b) << endl;
 			system("pause");
 			break;
 		case '-':
-			cout<<Min(a, b)<<endl;
+			cout << a << Choose << b <<"="<< Min(a, b) << endl;
 			system("pause");
 			break;
 		case '/':
-			cout<<Div(a, b)<<endl;
+			cout << a << Choose << b <<"="<< Div(a, b) << endl;
 			system("pause");
 			break;
 		case '*':
-			cout<<Mult(a, b)<<endl;
+			cout << a << Choose << b << "="<<Mult(a, b) << endl;
 			system("pause");
 			break;
 		default:
