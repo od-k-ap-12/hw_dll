@@ -30,6 +30,8 @@ int main() {
 			cout<<Mult(a, b)<<endl;
 			system("pause");
 			break;
+		default:
+			break;
 		}
 
 	}
