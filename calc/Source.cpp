@@ -15,7 +15,7 @@ int main() {
 		cin >> Choose;
 		switch (Choose) {
 		case '+':
-			cout<<a<<Choose<<b<<"="<<Sum(a, b) << endl;
+			//cout<<a<<Choose<<b<<"="<<Sum(a, b) << endl;
 			system("pause");
 			break;
 		case '-':

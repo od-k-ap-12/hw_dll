@@ -14,12 +14,12 @@ FIRSTDLL_API int Min(int a, int b)
 	return a-b;
 }
 
-FIRSTDLL_API int Mult(int a, int b)
+FIRSTDLL_API int Div(int a, int b)
 {
 	return a*b;
 }
 
-FIRSTDLL_API int Div(int a, int b)
+FIRSTDLL_API int Mult(int a, int b)
 {
 	if (b == 0) {
 		cout << "Error "<<endl;
